@@ -5,6 +5,42 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SoftJawsForCAM", "SoftJawsForCAM.vcxproj", "{D7CBB035-8CC0-4576-9C72-5076E079586B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{123199A1-984F-4E0B-BDAB-86F86488376F}"
+	ProjectSection(SolutionItems) = preProject
+		docs\How to use the Soft Jaw and Stock addin for Fusion 360.pdf = docs\How to use the Soft Jaw and Stock addin for Fusion 360.pdf
+		docs\SoftJawandStockBlockCreation.html = docs\SoftJawandStockBlockCreation.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{69E02C01-B999-4292-B98C-0C55BE4088E9}"
+	ProjectSection(SolutionItems) = preProject
+		docs\Resources\appstore-combined.min.css = docs\Resources\appstore-combined.min.css
+		docs\Resources\mqdefault.jpg = docs\Resources\mqdefault.jpg
+		docs\Resources\original_4ec35efa-daff-462c-9d82-77992acc29b0_.png = docs\Resources\original_4ec35efa-daff-462c-9d82-77992acc29b0_.png
+		docs\Resources\resized_icon.png = docs\Resources\resized_icon.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "icons", "icons", "{75ED4CA1-1E25-4C2F-B553-BD72498DAB3E}"
+	ProjectSection(SolutionItems) = preProject
+		icons\Soft Jaw and Stock Block Creation.ico = icons\Soft Jaw and Stock Block Creation.ico
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{DADB15D0-B199-4F8A-9223-D05D2C6AE012}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SoftJawsCAM", "SoftJawsCAM", "{6E51313D-B1C4-446A-BC5B-D500F1A6404D}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\SoftJawsCAM\0x0-normal.png = Resources\SoftJawsCAM\0x0-normal.png
+		Resources\SoftJawsCAM\16x16-dark.png = Resources\SoftJawsCAM\16x16-dark.png
+		Resources\SoftJawsCAM\16x16-disabled.png = Resources\SoftJawsCAM\16x16-disabled.png
+		Resources\SoftJawsCAM\16x16.png = Resources\SoftJawsCAM\16x16.png
+		Resources\SoftJawsCAM\16x16@2x.png = Resources\SoftJawsCAM\16x16@2x.png
+		Resources\SoftJawsCAM\32x32-dark.png = Resources\SoftJawsCAM\32x32-dark.png
+		Resources\SoftJawsCAM\32x32-disabled.png = Resources\SoftJawsCAM\32x32-disabled.png
+		Resources\SoftJawsCAM\32x32.png = Resources\SoftJawsCAM\32x32.png
+		Resources\SoftJawsCAM\32x32@2x.png = Resources\SoftJawsCAM\32x32@2x.png
+		Resources\SoftJawsCAM\64x64-dark.png = Resources\SoftJawsCAM\64x64-dark.png
+		Resources\SoftJawsCAM\64x64.png = Resources\SoftJawsCAM\64x64.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -18,6 +54,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{69E02C01-B999-4292-B98C-0C55BE4088E9} = {123199A1-984F-4E0B-BDAB-86F86488376F}
+		{6E51313D-B1C4-446A-BC5B-D500F1A6404D} = {DADB15D0-B199-4F8A-9223-D05D2C6AE012}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E13F8983-6C8E-46D7-A3CE-98B4075D963E}
