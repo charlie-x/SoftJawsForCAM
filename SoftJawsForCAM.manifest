@@ -1,0 +1,15 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"addin",
+	"author":	"charliex",
+	"description":	{
+		"":	"Create soft jaws from a few params, conversion of  JavaScript by Matthew Nichols"
+	},
+	"supportedOS":	"windows|mac",
+	"editEnabled":	true,
+	"id":	"5b85d2cd-1a1e-44fd-93cf-d2905c6f94cf",
+	"version":	"0.01",
+	"runOnStartup":	false,
+	"sourcewindows":	"SoftJawsForCAM.vcxproj",
+	"sourcemac":	"SoftJawsForCAM.xcodeproj"
+}
